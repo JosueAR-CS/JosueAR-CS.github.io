@@ -7,6 +7,11 @@ h1 {
     color: #000000;
 }
 
+h3 { 
+    text-align: center;
+    color: #000000;
+}
+
 .projects { 
     display:flex; flex-wrap:wrap; 
 } 
@@ -34,4 +39,31 @@ a { /* change the appearance of ALL links */
 .project p { /* change the appearance of paragraph tags inside .project divs */
     text-align: center;
     margin: 15px;
+}
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.about img {
+    width: 225px;
+    height: 224px;
+    border-radius: 25%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.about p {
+        width:50%;
+        text-align: center;
+        margin: auto;
+        line-height: 125%;
+}
+
+.contact a {
+    font-size: 1.5em; 
+    color: #cbcfd2;
 }
